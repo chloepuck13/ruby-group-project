@@ -87,7 +87,8 @@ puts item_to_price(item4)
 puts "Which product do you want to purchase? (last item)"
 item5 =gets.chomp
 puts item_to_price(item5)
-puts "Your total is: $" +item_to_price(item1) + item_to_price(item2) + item_to_price(item3) + item_to_price(item4) + item_to_price(item5)
+#puts  "Your total is: $" + item_to_price(item1) + item_to_price(item2) + item_to_price(item3) + item_to_price(item4) + item_to_price(item5)
+puts item_to_price(item1)+item_to_price(item2)+item_to_price(item3)+item_to_price(item4)+item_to_price(item5)
 
 
 
